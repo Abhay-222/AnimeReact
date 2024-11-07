@@ -1,0 +1,21 @@
+.foot{
+    background-color: #28282a;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.foot img{
+    padding-top: 3em;
+    width: 45vw;
+    height: 20vh;
+}
+
+.foot span{
+    width: 45vw;
+    text-align: center;
+    color: #6b6b6d;
+}

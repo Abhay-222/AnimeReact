@@ -1,0 +1,27 @@
+body, header, main {
+    margin: 0;
+    padding: 0;
+    background-color: #28282a;
+    overflow-x: hidden;
+}
+
+#time {
+    padding: 0.5em 0 0.5em 2em;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 3vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#socialMedia {
+    padding: 0.5rem 2rem 0rem 0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#socialMedia i {
+    color: white;
+    margin-left: 1em;
+}

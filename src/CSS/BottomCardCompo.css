@@ -1,0 +1,73 @@
+.bottomParent{
+    background-color: #1f2024;
+    width: 42.5%;
+    margin: 2em 0em 0em 2.5em;
+    border-radius: 0.5em;
+    border: 1px solid rgb(133, 132, 132);
+    padding: 1em;
+}
+
+.cbMainImg{
+    margin-top: 2em;
+    margin-left: 2.5em;
+    width: 85%;
+}
+.cbMainImg img{
+    width: 100%;
+    height: 55vh;
+    border-radius: 0.5em;
+    margin-bottom: 0em;
+}
+
+.mainImgDetails{
+    display: flex;
+    flex-direction: column;
+    margin: 0em 2.5em 0em 2.5em;
+}
+.mainImgDetails h2{
+    color: aliceblue;
+    margin: 0.5em 0em 0.5em 0em;
+}
+.mainImgDetails span{
+    color: aliceblue;
+    margin: 0em 0em 0.5em 0em;
+}
+.mainImgDetails button{
+    background-color: rgb(12, 74, 206);
+    padding: 0.6em 1em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    border: 0;
+    color: aliceblue;
+    cursor: pointer;
+    width: 7em;
+}
+
+.subImg{
+    margin: 1em 2.5em 1em 2.5em;
+    display: flex;
+    flex-direction: row;
+}
+.subImgImg Img{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 0.5em;
+}
+.subImgDetails{
+    margin: 0em 0em 0.5em 1em;
+}
+.subImgDetails span{
+    color: aliceblue;
+}
+.subImgDetails h3{
+    color:aliceblue;
+    margin-top: 0.5em;
+}
+.cardsBottomRightCard {
+    background-color: #1f2024;
+    width: 43.5%;
+    margin: 2em 2.5em 0 1em;
+    border-radius: 0.5em;
+    border: 1px solid rgb(133, 132, 132);
+    padding: 1em;
+}

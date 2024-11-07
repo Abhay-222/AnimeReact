@@ -1,0 +1,44 @@
+
+.card{
+    border-radius: 0.5em;
+    margin: 1em 1em -1.1em -0.2em;
+    width: 30.5%;
+}
+
+.info-box {
+    position: relative;
+    width: 29.5vw;
+    height: 47vh;
+    overflow: hidden;
+}
+
+.heading {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    transition: 0.3s linear;
+    z-index: 5;
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.hidden-info {
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    padding: 1rem 1rem 1rem 1.5rem;
+    transition: 0.3s ease-out;
+    font-weight: 700;
+    color: aliceblue;
+    align-items: center;
+}
+
+.info-box:hover .heading {
+    transform: translateY(-150%); 
+}
+
+.info-box:hover .hidden-info {
+    transform: translateY(-150%);
+}
