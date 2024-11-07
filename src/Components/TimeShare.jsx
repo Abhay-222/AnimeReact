@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/timeShare.css';
+import '../CSS/timeShare.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faSun } from '@fortawesome/free-regular-svg-icons';

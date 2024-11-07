@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/menubar.css';
+import '../CSS/menubar.css';
 import logo from '../Images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faVideo, faBookmark, faCheckDouble, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
